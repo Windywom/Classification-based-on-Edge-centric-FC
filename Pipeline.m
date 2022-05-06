@@ -4,8 +4,7 @@ result_dir='./Classify_results/eFC';
 mkdir (result_dir)
 load 'F:/Prenatal_Opioid_exposure/FD_left.mat'
 
-ss=15; sc=26;
-sz = [41 3];
+ss=15; sc=24;
 varTypes = {'double','string','double'};
 varNames = {'label','name','FD'};
 sub = table('Size',sz,'VariableTypes',varTypes,'VariableNames',varNames);
